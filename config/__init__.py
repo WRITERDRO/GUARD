@@ -14,7 +14,7 @@ MONGO_DB = os.getenv("MONGO_DB", "oxygen")
 OWNER_ID = int(os.getenv("OWNER_ID", "0"))
 LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO").upper()
 LOG_GROUP_ID = int(os.getenv("LOG_GROUP_ID", "0"))
-SUPPORT_CHAT_URL = os.getenv("SUPPORT_CHAT_URL", "https://t.me/botsyard")
+SUPPORT_CHAT_URL = os.getenv("SUPPORT_CHAT_URL", "https://t.me/BotzEmpire")
 DEVELOPER_URL = os.getenv("DEVELOPER_URL", "https://t.me/oxeign")
 PANEL_IMAGE_URL = os.getenv("PANEL_IMAGE_URL", "https://files.catbox.moe/uvqeln.jpg")
 
