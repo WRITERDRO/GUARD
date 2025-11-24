@@ -16,7 +16,7 @@ logger = logging.getLogger(__name__)
 
 # Initialize the bot client
 bot = Client(
-    "oxygen_bot",
+    "BioWarnBot",
     api_id=API_ID,
     api_hash=API_HASH,
     bot_token=BOT_TOKEN,
@@ -25,7 +25,7 @@ bot = Client(
 
 # Main lifecycle function
 async def main() -> None:
-    logger.info("🚀 Starting OxygenBot...")
+    logger.info("🚀 Starting BioWarnBot...")
 
     await init_db(MONGO_URI, MONGO_DB)
     logger.info("✅ MongoDB connected.")
