@@ -19,7 +19,7 @@ logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
     level=getattr(logging, LOG_LEVEL, logging.INFO),
 )
-logger = logging.getLogger("OxygenBot")
+logger = logging.getLogger("ddlovenk_bot")
 
 # Initialize Pyrogram app
 bot = Client(
@@ -32,7 +32,7 @@ bot = Client(
 
 # Main lifecycle function
 async def main() -> None:
-    logger.info("🚀 Starting OxygenBot...")
+    logger.info("🚀 Starting BioWarnBot...")
 
     await init_db(MONGO_URI, MONGO_DB)
     logger.info("✅ MongoDB connected.")
