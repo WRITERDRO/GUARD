@@ -23,7 +23,7 @@ logger = logging.getLogger("ddlovenk_bot")
 
 # Initialize Pyrogram app
 bot = Client(
-    "oxygen_bot",
+    "BioWarnBot",
     api_id=API_ID,
     api_hash=API_HASH,
     bot_token=BOT_TOKEN,
